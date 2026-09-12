@@ -1,0 +1,1 @@
+import {Wifi,Lock} from 'lucide-react';export default function BankCard({frozen=false,user}){return <div className={`bank-card ${frozen?'frozen':''}`}><div><span>MobileBank</span><Wifi/></div><em>VIRTUAL DEBIT</em><strong>•••• 4829</strong><div><span>{user?.name||'ACCOUNT HOLDER'}</span><span>09/29</span></div>{frozen&&<b className="frozen-label"><Lock/> Frozen</b>}</div>}
