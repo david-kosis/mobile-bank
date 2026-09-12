@@ -1,0 +1,1 @@
+import {ShieldCheck} from 'lucide-react';export default function CardSecurity(){return <div className="card-security"><ShieldCheck/><div><b>Card security</b><span>Never share your PIN or one-time verification codes.</span></div></div>}
