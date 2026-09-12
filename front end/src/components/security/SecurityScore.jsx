@@ -1,0 +1,1 @@
+import {ShieldCheck} from 'lucide-react';export default function SecurityScore(){return <section className="security-score"><div className="score-ring"><strong>92</strong><span>/100</span></div><div><small>SECURITY CENTER</small><h2>Your account security is strong</h2><p>Keep your recovery methods and devices up to date.</p></div><ShieldCheck/></section>}
