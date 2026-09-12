@@ -1,0 +1,1 @@
+import {RefreshCw,TriangleAlert} from 'lucide-react';export default function ErrorState({title='Connection problem',text="We couldn't reach the banking service.",onRetry}){return <div className="error-state"><TriangleAlert/><b>{title}</b><span>{text}</span>{onRetry&&<button onClick={onRetry}><RefreshCw/>Try again</button>}</div>}
