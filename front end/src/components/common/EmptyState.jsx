@@ -1,0 +1,1 @@
+import {Inbox} from 'lucide-react';export default function EmptyState({title='Nothing here yet',text='Your activity will appear here.'}){return <div className="empty-state"><Inbox/><b>{title}</b><span>{text}</span></div>}
