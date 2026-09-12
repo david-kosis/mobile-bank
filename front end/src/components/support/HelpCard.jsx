@@ -1,0 +1,1 @@
+import {ChevronRight} from 'lucide-react';export default function HelpCard({icon,title,text,onClick}){return <button className="help-card" onClick={onClick}>{icon}<span><b>{title}</b><small>{text}</small></span><ChevronRight/></button>}
